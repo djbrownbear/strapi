@@ -12,13 +12,14 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Date": {
-      "type": "datetime"
+    "date": {
+      "type": "datetime",
+      "required": true
     },
-    "Location": {
+    "location": {
       "type": "string"
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -29,7 +30,7 @@
         "audios"
       ]
     },
-    "Description": {
+    "description": {
       "type": "text"
     }
   }
