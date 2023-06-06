@@ -32,6 +32,12 @@
     },
     "description": {
       "type": "text"
+    },
+    "offering": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::offering.offering",
+      "inversedBy": "events"
     }
   }
 }
