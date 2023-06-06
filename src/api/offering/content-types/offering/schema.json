@@ -34,6 +34,11 @@
       "relation": "oneToMany",
       "target": "api::event.event",
       "mappedBy": "offering"
+    },
+    "slug": {
+      "type": "uid",
+      "required": true,
+      "targetField": "title"
     }
   }
 }
